@@ -31,13 +31,16 @@ h1 {
 
 #coverContainer {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   margin: 0 auto 18px auto;
-  width: 300px;
+  width: 440px;
 }
 
 #trackCover {
-  max-width: 260px;
+  max-width: 230px;
   width: 100%;
   height: auto;
   border-radius: 18px;
@@ -45,18 +48,15 @@ h1 {
   display: block;
   position: relative;
   z-index: 10;
-  margin-left: 20px;
 }
 
 #danielleSticker {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 160px;
+  height: 160px;
+  position: relative;
   z-index: 3;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 #trackName {
