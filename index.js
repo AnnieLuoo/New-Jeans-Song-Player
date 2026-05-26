@@ -11,7 +11,7 @@ function initPlayer() {
     {src: 'assets/SpoMp3 Hype Boy NewJeans.mp3', label: 'Hype Boy', cover: 're/bunny blue.png', bg: 'linear-gradient(180deg, #d8f3ff 0%, #f0fbff 100%)'},
     {src: 'assets/SpoMp3 New Jeans NewJeans.mp3', label: 'New Jeans', cover: 're/super shy.png', bg: 'linear-gradient(180deg, #f0d9ff 0%, #fff5ff 100%)'},
     {src: 'assets/SpoMp3 OMG NewJeans.mp3', label: 'OMG', cover: 're/bunny black.png', bg: 'linear-gradient(180deg, #f4edff 0%, #e7f0ff 100%)'},
-    {src: 'assets/SpoMp3 Rewind Wonder Girls.mp3', label: 'Rewind Wonder Girls', cover: 're/random.png', bg: 'linear-gradient(180deg, #ffe6ea 0%, #fff0f5 100%)'},
+    {src: 'assets/SpoMp3 Rewind Wonder Girls.mp3', label: 'Rewind', cover: 're/random.png', bg: 'linear-gradient(180deg, #ffe6ea 0%, #fff0f5 100%)'},
     {src: 'assets/SpoMp3 Right Now NewJeans.mp3', label: 'Right Now', cover: 're/supernatural.png', bg: 'linear-gradient(180deg, #dff2ef 0%, #eaf9f7 100%)'},
     {src: 'assets/SpoMp3 Super Shy NewJeans.mp3', label: 'Super Shy', cover: 're/super shy.png', bg: 'linear-gradient(180deg, #f8e0ff 0%, #fff4ff 100%)'},
     {src: 'assets/SpoMp3 Supernatural NewJeans.mp3', label: 'Supernatural', cover: 're/supernatural.png', bg: 'linear-gradient(180deg, #e2f7ff 0%, #f3f9ff 100%)'}
