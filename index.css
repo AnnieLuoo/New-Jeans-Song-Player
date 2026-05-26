@@ -18,19 +18,22 @@ main#app {
 }
 
 h1 {
-  margin: 0 0 12px 0;
-  font-size: 36px;
+  margin: 0 0 24px 0;
+  font-size: 72px;
   font-family: 'Pacifico', cursive;
   letter-spacing: 0.02em;
   text-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.letter {
+  display: inline;
 }
 
 #coverContainer {
   position: relative;
   display: inline-block;
   margin: 0 auto 18px auto;
-  width: 260px;
-  height: 260px;
+  width: 300px;
 }
 
 #trackCover {
@@ -40,21 +43,20 @@ h1 {
   border-radius: 18px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
   display: block;
-  position: absolute;
-  z-index: 20;
-  left: 0;
-  top: 0;
+  position: relative;
+  z-index: 10;
+  margin-left: 20px;
 }
 
 #danielleSticker {
-  max-width: 50px;
-  width: 50px;
-  height: auto;
+  width: 60px;
+  height: 60px;
   position: absolute;
-  left: -15px;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
+  z-index: 3;
+  object-fit: contain;
 }
 
 #trackName {
