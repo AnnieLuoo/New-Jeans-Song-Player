@@ -1,7 +1,6 @@
 // Robust player script: initialize after DOM is ready
 function initPlayer() {
   const tracks = [
-    {src: 'assets/Rewind.mp3', label: 'Rewind', cover: 're/random.png', bg: 'linear-gradient(180deg, #ffd8e8 0%, #ffeefd 100%)'},
     {src: 'assets/SpoMp3 ASAP NewJeans.mp3', label: 'ASAP', cover: 're/super shy.png', bg: 'linear-gradient(180deg, #e2d2ff 0%, #f6e9ff 100%)'},
     {src: 'assets/SpoMp3 Bubble Gum NewJeans.mp3', label: 'Bubble Gum', cover: 're/how sweet.png', bg: 'linear-gradient(180deg, #fff1d8 0%, #ffe8f0 100%)'},
     {src: 'assets/SpoMp3 Cool With You NewJeans.mp3', label: 'Cool With You', cover: 're/super shy.png', bg: 'linear-gradient(180deg, #dbe9ff 0%, #f7f0ff 100%)'},
