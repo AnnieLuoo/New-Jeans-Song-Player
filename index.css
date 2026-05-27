@@ -29,9 +29,12 @@ h1 {
 .letter {
   display: inline;
 }
+
 #colorfulTitle {
   color: #fff;
+  margin-bottom: 30px;
 }
+
 
 #coverContainer {
   position: relative;
@@ -419,6 +422,7 @@ h1 {
 #playBtn, #randomBtn {
   font-family: 'Fredoka One', cursive;
   color: #fff;
+	margin-top: 30px;
 }
 
 #trackName {
