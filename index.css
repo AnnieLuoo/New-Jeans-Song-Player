@@ -430,6 +430,13 @@ h1 {
   font-weight: bold;
   color: #fff;
 }
+#trackName, #status {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 6px 20px;
+  display: inline-block;
+}
 
 #playBtn:hover, #randomBtn:hover {
     background-color: #ffbcc9;
